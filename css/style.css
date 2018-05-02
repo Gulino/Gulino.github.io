@@ -60,7 +60,12 @@ nav ul li a:hover{
 color: #2d2d86;
 }
 
+ul{
+  list-style-type: none;
+  margin:0;
+  padding: 0;
 
+}
 
 h1{
   padding-right: 30px;
@@ -133,7 +138,7 @@ img{
 }
 
 .imgtext{
-  width: 600px;
+  width: 700px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -143,14 +148,20 @@ img{
   display:none;
 }
 
-.grid {
+
+#box0{
+  width: 600px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
-  align-items: center;
-  }
-.grid img {
-  border: 1px solid #ccc;
-  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
-max-width: 100%;
+  padding: 20px;
+}
+
+#toggle{
+  display:none;
 }

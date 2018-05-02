@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   $("button").click(function(){
-          $("#miami2").fadeIn("slow");
+          $("#miami2").fadeIn("fast");
 
 });
 
@@ -11,6 +11,13 @@ $("#hide").click(function(){
 $("#show").click(function(){
     $("#p").show();
 });
+
+$("button").click(function(){
+        $("#toggle").toggle("fast");
+
+});
+
+
 
 
 });
