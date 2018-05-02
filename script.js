@@ -13,7 +13,7 @@ $("#show").click(function(){
 });
 
 $("button").click(function(){
-        $("#toggle").toggle("fast");
+        $("#toggle").toggle();
 
 });
 
