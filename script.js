@@ -6,10 +6,10 @@ $(document).ready(function(){
 });
 
 $("#hide").click(function(){
-    $("#p").hide();
+    $("#sweet").hide();
 });
 $("#show").click(function(){
-    $("#p").show();
+    $("#sweet").show();
 });
 
 $("button").click(function(){

@@ -109,6 +109,7 @@ a:hover {
 
 p {
   font-family: 'PT Sans', sans-serif;
+  text-align: justify;
 }
 
 
@@ -150,8 +151,9 @@ width: 600px;
   margin-right: auto;
 }
 
-#p{
+#sweet{
   display:none;
+  text-align: center;
 }
 
 
