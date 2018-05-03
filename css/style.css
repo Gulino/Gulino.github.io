@@ -7,6 +7,8 @@
                           "footer";
   grid-template-rows:   1fr 1fr 1fr;
   grid-template-columns:  960px;
+  background-color: #f8ecf2;
+  border: 3px solid;
 
 
 }
@@ -25,7 +27,9 @@ header {
 }
 
 .p{
-
+  padding-left: 20px;
+padding-right:20px;
+line-height:20px;
 }
 
 main {
@@ -46,7 +50,7 @@ nav ul li{
   list-style: none;
   display: inline-block;
   padding-right: 80px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
   padding-top: 20px;
 
 }
@@ -54,35 +58,47 @@ nav ul li{
 
 nav ul li a{
   text-decoration: none;
-  font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  padding-left: 5px;
+
+
 }
 
 nav ul li a:hover{
-color: #2d2d86;
+color:  #ffff4d;
 }
 
 ul{
+  font-family: 'Inconsolata', monospace;
   list-style-type: none;
   margin:0;
   padding: 0;
 
 }
-
 h1{
-  padding-right: 30px;
+  text-align: center;
   font-size: 50px;
   padding-top: 50px;
+  font-family: 'Poller One', cursive;
+  text-shadow: 4px 4px #ff6699;
 
 }
+
 
 h2{
   text-align: center;
-
+    font-family: 'Poller One', cursive;
+    font-weight: normal;
+    text-shadow: 2px 2px #ffff4d;
 
 }
 
+
 h3{
   text-align: center;
+  font-family: 'Poller One', cursive;
+text-shadow: 2px 2px #b3ffff;
 
 }
 
@@ -103,13 +119,14 @@ a {
 }
 
 a:hover {
-  color: #2d2d86;
+  color: #cc33ff;
 
 }
 
 p {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Inconsolata', monospace;
   text-align: justify;
+  font-size: 16;
 }
 
 
@@ -131,17 +148,14 @@ img{
 
 #miami2{
   display:none;
-  width: 600px;
-  height: auto;
-  padding-top: 20px;
-    margin-left: auto;
-    margin-right: auto
+  
 
 }
 
 #photo{
 
 padding-bottom: 20px;
+padding-top: 10px;
 }
 
 .imgtext{
@@ -149,11 +163,13 @@ width: 600px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 #sweet{
   display:none;
   text-align: center;
+  font-family: 'Inconsolata', monospace;
 }
 
 
@@ -172,4 +188,13 @@ width: 600px;
 
 #toggle{
   display:none;
+}
+
+
+button{
+  color: white;
+  background-color: #4dff88;
+  border-radius: 7px;
+  padding: 10px;
+  font-size: 16px;
 }
